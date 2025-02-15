@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "utsvt-chips")(type "KiCad")(uri "C:/Users/Okafo/LHR/UTSVT-KiCadLibraries/utsvt-chips.kicad_sym")(options "")(descr ""))
   (lib (name "utsvt-connectors")(type "KiCad")(uri "C:/Users/Okafo/LHR/UTSVT-KiCadLibraries/utsvt-connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "BLUENRG-M2SA")(type "Legacy")(uri "${KIPRJMOD}/UTSVT-KiCadLibraries/UTSVT_ICs.pretty/BLUENRG-M2SA.lib")(options "")(descr ""))
 )
