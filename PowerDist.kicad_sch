@@ -2459,7 +2459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ba0d854-83e7-4d57-8d7b-e9609028fafb")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 49.53 119.38 0)
 			(effects
 				(font
@@ -2509,7 +2509,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2524,7 +2524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11683438-7fa6-4ee2-ad79-41986faad4f4")
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 202.3872 114.4016 0)
 			(effects
 				(font
@@ -2542,7 +2542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.3552 119.38 0)
 			(effects
 				(font
@@ -2614,7 +2614,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13e95db2-3c62-46da-92a0-5aa4f6ba1ff8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR036"
 			(at 191.77 55.88 0)
 			(effects
 				(font
@@ -2680,7 +2680,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR027")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2696,7 +2696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f5bd47b-ecff-4e04-a77f-360c804af291")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR034"
 			(at 128.27 111.76 0)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR025")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2762,7 +2762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215559e8-7b7e-4c28-be86-3e064d572c1b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR035"
 			(at 138.43 125.73 0)
 			(effects
 				(font
@@ -2812,7 +2812,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR026")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2828,7 +2828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3608873b-8d29-4214-92fc-683aa7051dc3")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 66.04 121.285 0)
 			(effects
 				(font
@@ -2846,7 +2846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 125.73 0)
 			(effects
 				(font
@@ -2918,7 +2918,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2934,7 +2934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d1881aa-09d6-4d26-82af-a1a88d486d93")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR038"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -2984,7 +2984,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR029")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3000,7 +3000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e3100d-6630-4ef5-b2f4-f237f1d21a30")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR041"
 			(at 226.06 129.54 0)
 			(effects
 				(font
@@ -3050,7 +3050,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR032")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -3148,7 +3148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d20d83f-6edd-4f7d-9893-a5405d8639b3")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 229.0572 118.4148 90)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 226.06 119.38 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3299,7 +3299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d875f48-ceec-4de5-b5a7-ae75f5608aa7")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 101.6 113.0299 0)
 			(effects
 				(font
@@ -3317,7 +3317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 114.3 90)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3412,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 187.96 48.26 0)
 			(effects
 				(font
@@ -3478,7 +3478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "711e470d-cef4-4b42-b84d-905cc8dcdd4f")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 253.238 110.5916 0)
 			(effects
 				(font
@@ -3496,7 +3496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 249.682 111.76 90)
 			(effects
 				(font
@@ -3586,7 +3586,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3601,7 +3601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71659473-0487-4bd1-bc1a-3b32b6ad0b5b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR045"
 			(at 237.49 130.81 0)
 			(effects
 				(font
@@ -3651,7 +3651,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR036")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "756180f0-04d0-46ca-8e73-d0503bc0abd5")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR040"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR031")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3733,7 +3733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84cf634f-3635-45e4-bce4-05af3d8e58c7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 191.77 67.31 0)
 			(effects
 				(font
@@ -3783,7 +3783,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3798,7 +3798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91d4fcaf-d423-4d9d-9975-f91f2553b35f")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 254.4572 119.6848 90)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 251.46 120.65 0)
 			(effects
 				(font
@@ -3933,7 +3933,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92c7efe7-dd85-4c48-b924-e7119d29de90")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 227.838 109.3216 0)
 			(effects
 				(font
@@ -3966,7 +3966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.282 110.49 90)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4088,7 +4088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 226.06 57.15 0)
 			(effects
 				(font
@@ -4171,7 +4171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 204.47 48.26 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4fae1f3-c4b1-4917-ad05-ee2614449d2a")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 171.196 100.076 0)
 			(effects
 				(font
@@ -4322,7 +4322,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4337,7 +4337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6139172-d680-49be-8822-b721d48b10fb")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR044"
 			(at 237.49 106.68 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR035")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4403,7 +4403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3edf1a9-b6f7-4407-86d7-ecc2a684d0d7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR043"
 			(at 228.6 69.85 0)
 			(effects
 				(font
@@ -4453,7 +4453,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR034")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4485,7 +4485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 88.9 109.22 0)
 			(effects
 				(font
@@ -4563,7 +4563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3da7d7a-4305-4b60-9dc7-5df8ccea3763")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 239.268 109.3216 0)
 			(effects
 				(font
@@ -4581,7 +4581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 235.712 110.49 90)
 			(effects
 				(font
@@ -4653,7 +4653,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4685,7 +4685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 226.06 48.26 0)
 			(effects
 				(font
@@ -4752,7 +4752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5935eee-f6c8-4c03-85ce-8c1c5e220e69")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 66.04 99.06 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9264a46-8e27-4551-bb4c-68aa3819dd2e")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 101.6 121.9199 0)
 			(effects
 				(font
@@ -4877,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 123.19 90)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4956,7 +4956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf48915b-f130-4732-adac-acd688b43f13")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR033"
 			(at 99.06 133.35 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR024")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf6df1d8-c7de-4949-bb6a-a47277ca0f8e")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 240.4872 118.4148 90)
 			(effects
 				(font
@@ -5039,7 +5039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 237.49 119.38 0)
 			(effects
 				(font
@@ -5138,7 +5138,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1cc2d5e-d8ef-4767-bdc1-60ee2827eaf7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR031"
 			(at 39.37 107.95 0)
 			(effects
 				(font
@@ -5204,7 +5204,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR010")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5220,7 +5220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b645f7-590e-4a1e-960e-246bac27158a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR039"
 			(at 209.55 111.76 0)
 			(effects
 				(font
@@ -5270,7 +5270,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR030")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5285,7 +5285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c8f25e-4d8d-46f3-8b1f-1ed4cb61c3ca")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 138.8872 113.1316 0)
 			(effects
 				(font
@@ -5303,7 +5303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.8552 118.11 0)
 			(effects
 				(font
@@ -5375,7 +5375,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5390,7 +5390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5db5113-0513-4a0a-914a-c95216f0e261")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 149.0472 113.1316 0)
 			(effects
 				(font
@@ -5408,7 +5408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 147.0152 118.11 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea71f608-d108-4f5e-b0f2-a629a0eac14f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR042"
 			(at 228.6 53.34 0)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "#PWR033")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5561,7 +5561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7b2174b-e7c4-4105-90d7-bf2095a4ad20")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 42.3672 109.3216 0)
 			(effects
 				(font
@@ -5579,7 +5579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.3352 114.3 0)
 			(effects
 				(font
@@ -5651,7 +5651,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
