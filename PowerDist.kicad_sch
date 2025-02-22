@@ -1687,16 +1687,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 129.54) (xy 251.46 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "444f3028-4a1e-49bf-8c8a-1ed69cbcb70f")
-	)
-	(wire
-		(pts
 			(xy 39.37 114.3) (xy 49.53 114.3)
 		)
 		(stroke
@@ -1877,16 +1867,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d878062-88ec-4e89-939b-09fed05bf08d")
-	)
-	(wire
-		(pts
 			(xy 59.69 118.11) (xy 62.23 118.11)
 		)
 		(stroke
@@ -1937,16 +1917,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 129.54) (xy 251.46 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae6fbaac-bf2d-4f66-8074-54604178a0f6")
-	)
-	(wire
-		(pts
 			(xy 49.53 111.76) (xy 49.53 114.3)
 		)
 		(stroke
@@ -1964,16 +1934,6 @@
 			(type default)
 		)
 		(uuid "b2996915-96cb-4244-8f95-5250b10e4a19")
-	)
-	(wire
-		(pts
-			(xy 251.46 99.06) (xy 251.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b610e83a-eed0-4bba-bc88-9359b182525f")
 	)
 	(wire
 		(pts
@@ -2094,16 +2054,6 @@
 			(type default)
 		)
 		(uuid "debfa0fe-7a98-421e-a11d-a1cbd00d724a")
-	)
-	(wire
-		(pts
-			(xy 252.73 99.06) (xy 251.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df932523-454e-47af-9cb9-156b6e09fea7")
 	)
 	(wire
 		(pts
@@ -2347,17 +2297,6 @@
 		)
 		(uuid "012f0a02-84d3-4b90-9ee5-ae7ed25252ee")
 	)
-	(label "Fault"
-		(at 246.38 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13ba0552-d3e8-4520-95d2-3946defeb76a")
-	)
 	(label "BST"
 		(at 80.01 106.68 0)
 		(fields_autoplaced yes)
@@ -2412,18 +2351,6 @@
 			(justify left bottom)
 		)
 		(uuid "c8f52827-62ce-4277-8ab2-c10961822587")
-	)
-	(hierarchical_label "12V_Ext"
-		(shape input)
-		(at 252.73 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14937db7-d2ad-48a5-a8de-07b4b2dc4d57")
 	)
 	(hierarchical_label "3V3_Bus"
 		(shape output)
@@ -3470,129 +3397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 251.46 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "711e470d-cef4-4b42-b84d-905cc8dcdd4f")
-		(property "Reference" "R17"
-			(at 253.238 110.5916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22.1k"
-			(at 253.238 112.903 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 249.682 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "CRCW080522K1FKEA"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-22.1K-E3"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Inventory" "Y"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Vishay-Dale/CRCW080522K1FKEA?qs=fIsz7OpyEY%2F1GKOToH8JbQ%3D%3D"
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 251.46 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e071475a-bea0-4772-b2b7-4b85dbec3092")
-		)
-		(pin "2"
-			(uuid "a39e43a5-cbf6-49c2-8838-ad3efad3a081")
-		)
-		(instances
-			(project "SteeringBoard"
-				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 237.49 124.46 0)
 		(unit 1)
@@ -3784,156 +3588,6 @@
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 251.46 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91d4fcaf-d423-4d9d-9975-f91f2553b35f")
-		(property "Reference" "D8"
-			(at 254.4572 119.6848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12V"
-			(at 254.4572 121.9962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color" "Green"
-			(at 251.46 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P/N" "APTD2012LCGCK"
-			(at 251.46 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vf" "1.9V"
-			(at 251.46 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "If" "2mA"
-			(at 251.46 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "604-APTD2012LCGCK"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Inventory" "Y"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Kingbright/APTD2012LCGCK?qs=AQlKX63v8RvNHN%2F9EGvNTg%3D%3D"
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 251.46 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a5b90ba-3cca-4ff0-9bee-0b7330d9c939")
-		)
-		(pin "2"
-			(uuid "56bb41d8-3444-46a4-a077-b030c769b363")
-		)
-		(instances
-			(project "SteeringBoard"
-				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/7366309b-a8af-4a00-88e6-2610fd8d12bd"
-					(reference "D8")
 					(unit 1)
 				)
 			)
