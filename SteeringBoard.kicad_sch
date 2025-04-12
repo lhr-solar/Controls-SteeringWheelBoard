@@ -4123,6 +4123,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 146.05) (xy 172.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2d6fc5-32b7-41d3-a9a9-a1e53ab26e00")
+	)
+	(wire
+		(pts
 			(xy 144.78 177.8) (xy 144.78 179.07)
 		)
 		(stroke
@@ -4343,16 +4353,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 151.13) (xy 173.99 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c39d68e-a2cd-4f9e-9b7b-0566e12e42f5")
-	)
-	(wire
-		(pts
 			(xy 231.14 27.94) (xy 231.14 29.21)
 		)
 		(stroke
@@ -4463,16 +4463,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 143.51) (xy 173.99 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9ec274-13fd-40a7-bfed-68b2ab36dc56")
-	)
-	(wire
-		(pts
 			(xy 93.98 43.18) (xy 97.79 43.18)
 		)
 		(stroke
@@ -4490,6 +4480,16 @@
 			(type default)
 		)
 		(uuid "7fc7f24e-a2ba-4839-b55d-108c1daebd39")
+	)
+	(wire
+		(pts
+			(xy 165.1 148.59) (xy 172.72 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816ade79-bf25-41d0-aac7-f3f573f4db61")
 	)
 	(wire
 		(pts
@@ -4583,16 +4583,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 146.05) (xy 173.99 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9feed0bc-d8a3-4ab2-a971-2a9ebd85c2b7")
-	)
-	(wire
-		(pts
 			(xy 236.22 128.27) (xy 238.76 128.27)
 		)
 		(stroke
@@ -4623,13 +4613,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 148.59) (xy 173.99 148.59)
+			(xy 165.1 153.67) (xy 172.72 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3f86a91-0acd-45af-ac4d-09f268d9772b")
+		(uuid "ac65a55a-5c97-438f-8340-15f76be63ac4")
 	)
 	(wire
 		(pts
@@ -4733,6 +4723,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 151.13) (xy 172.72 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66db790-be68-400e-a778-a7193388156b")
+	)
+	(wire
+		(pts
 			(xy 87.63 78.74) (xy 97.79 78.74)
 		)
 		(stroke
@@ -4790,6 +4790,16 @@
 			(type default)
 		)
 		(uuid "d5631bef-9e21-48e0-81dd-6df18439d564")
+	)
+	(wire
+		(pts
+			(xy 163.83 154.94) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ad923a-e9ea-47b7-bc86-55d3a9dd118d")
 	)
 	(wire
 		(pts
@@ -4943,6 +4953,17 @@
 		)
 		(uuid 7df4243f-a316-46cd-98d5-ee0b96694844)
 	)
+	(text "SWD Connector"
+		(exclude_from_sim no)
+		(at 169.164 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30cd157f-de88-421b-9115-41947565d76d")
+	)
 	(text "PC13-15 can \nonly source 3mA"
 		(exclude_from_sim no)
 		(at 84.836 52.578 0)
@@ -5012,17 +5033,6 @@
 		)
 		(uuid "ba9a08d2-7bf9-4299-ba25-9ee23894885b")
 	)
-	(text "SWD Connector"
-		(exclude_from_sim no)
-		(at 170.434 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf36977f-c95a-4367-9aaf-642fcc7b833a")
-	)
 	(text "Reset Button"
 		(exclude_from_sim no)
 		(at 129.286 170.434 0)
@@ -5091,6 +5101,17 @@
 		)
 		(uuid "0d08a14a-1da4-41d7-a5e7-9cf9686bfeb9")
 	)
+	(label "SWCLK"
+		(at 165.1 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13c0c9b3-6bc6-409d-bd9c-41ab87eadab0")
+	)
 	(label "TSS+"
 		(at 191.77 102.87 180)
 		(fields_autoplaced yes)
@@ -5123,6 +5144,17 @@
 			(justify left bottom)
 		)
 		(uuid "1e83c8be-0c44-44a6-bb26-f8d0e9e35e07")
+	)
+	(label "SWDIO"
+		(at 165.1 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2395c66c-7265-4401-a7cb-289c6c605d16")
 	)
 	(label "SWDIO"
 		(at 133.35 63.5 0)
@@ -5322,17 +5354,6 @@
 		)
 		(uuid "6b207262-dc79-4c67-b6c4-91e7308c278a")
 	)
-	(label "SWCLK"
-		(at 168.91 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "743732c4-7eb6-4b6b-b46e-ab11b2079ed5")
-	)
 	(label "TSSL-"
 		(at 231.14 27.94 90)
 		(fields_autoplaced yes)
@@ -5387,17 +5408,6 @@
 			(justify left bottom)
 		)
 		(uuid "87376b60-9047-4fd1-9e4e-161f32f58d8b")
-	)
-	(label "SWDIO"
-		(at 168.91 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89e3dc10-c88f-450a-b86d-90b984344f79")
 	)
 	(label "CAN_TX"
 		(at 87.63 81.28 180)
@@ -5640,7 +5650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c99da8b-3e0a-40ff-9927-e9483c842553")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 266.065 21.59 0)
 			(effects
 				(font
@@ -5698,7 +5708,7 @@
 		(instances
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5769,72 +5779,6 @@
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22276b60-5727-465e-8769-12209343893d")
-		(property "Reference" "#PWR010"
-			(at 163.83 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 163.83 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f2c0057-dd2c-491b-b8bd-58bf37333e90")
-		)
-		(instances
-			(project "SteeringBoard"
-				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7577,7 +7521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:+3.3V")
 		(at 163.83 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7585,9 +7529,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "60b70739-2917-4ff1-9625-f22b8b1a760d")
-		(property "Reference" "#PWR011"
-			(at 163.83 152.4 0)
+		(uuid "60dde6a7-7e5a-4165-82cd-36c57c274c71")
+		(property "Reference" "#PWR010"
+			(at 163.83 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,8 +7539,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 163.83 151.13 0)
+		(property "Value" "+3.3V"
+			(at 163.83 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 163.83 146.05 0)
 			(effects
 				(font
@@ -7631,106 +7575,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f080a98d-37b8-4396-9ec8-9f3105620569")
+			(uuid "57321ade-5d0e-46ac-9439-05d6e85d993d")
 		)
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 179.07 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "634e6d39-1fa3-4d1e-8898-900472643373")
-		(property "Reference" "J1"
-			(at 182.245 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SWD"
-			(at 182.245 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PN" ""
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "p/n" ""
-			(at 179.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f07ae97f-f64c-4e9b-a566-04ea7d47b656")
-		)
-		(pin "2"
-			(uuid "b9121739-252d-4ae5-81a6-a177bf3c5e74")
-		)
-		(pin "3"
-			(uuid "50ed1162-eecf-4af1-8880-26bb67326d9c")
-		)
-		(pin "4"
-			(uuid "355cfd20-2e1c-4189-b090-bb20e05cc2bd")
-		)
-		(instances
-			(project "SteeringBoard"
-				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "J1")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8273,6 +8123,100 @@
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 177.8 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8f7e51-adc0-4581-b4a6-1402c7491775")
+		(property "Reference" "J1"
+			(at 180.975 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWD"
+			(at 180.975 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 177.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 177.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 177.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "p/n" ""
+			(at 177.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e80de0e-abe8-46df-8db6-c6fb253eff67")
+		)
+		(pin "2"
+			(uuid "926b8781-460f-416f-a28b-1cff8430e026")
+		)
+		(pin "3"
+			(uuid "f191d255-3c80-4ea6-8238-47a3aae35aa4")
+		)
+		(pin "4"
+			(uuid "3619950f-b812-4ad8-b6db-1cdcc74bcf7a")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9592,6 +9536,72 @@
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1f1318-c1d3-42a1-b1ae-c33fb07bbb92")
+		(property "Reference" "#PWR011"
+			(at 163.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6065000b-4ddd-4260-9c7c-57b87b3cde08")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
