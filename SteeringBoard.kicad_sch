@@ -604,7 +604,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x06_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -618,8 +618,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Counter_Clockwise"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_02x06_Counter_Clockwise"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -644,7 +644,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -671,7 +671,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x05_Counter_Clockwise_1_1"
+			(symbol "Conn_02x06_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -729,13 +740,24 @@
 				)
 				(rectangle
 					(start -1.27 6.35)
-					(end 3.81 -6.35)
+					(end 3.81 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -812,7 +834,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -822,6 +844,42 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -902,7 +960,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -920,7 +978,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -938,7 +996,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -956,7 +1014,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -3930,10 +3988,6 @@
 		(uuid "effb6686-7866-4999-8fcd-7769b5627a57")
 	)
 	(no_connect
-		(at 133.35 38.1)
-		(uuid "009ce8e5-2033-455f-9142-67d71348dfd3")
-	)
-	(no_connect
 		(at 128.27 71.12)
 		(uuid "00cda82a-a4e4-4c15-a154-31a7a38f3044")
 	)
@@ -3998,10 +4052,6 @@
 		(uuid "981e4371-0b24-49be-afb0-f84fdefe3b22")
 	)
 	(no_connect
-		(at 133.35 53.34)
-		(uuid "9bbd78dc-1a3d-4f07-93b1-86c8fd2fda46")
-	)
-	(no_connect
 		(at 97.79 50.8)
 		(uuid "aff4d7cb-f7f9-4e5d-82f6-9d6d0566061c")
 	)
@@ -4026,6 +4076,10 @@
 		(uuid "ca9d3f13-8134-446d-a304-fd74ea1091d4")
 	)
 	(no_connect
+		(at 128.27 53.34)
+		(uuid "e69e8af3-7771-48f7-b334-19a95ed2018f")
+	)
+	(no_connect
 		(at 133.35 33.02)
 		(uuid "e761bbd1-6315-4efd-951b-ca71d5fed481")
 	)
@@ -4034,22 +4088,8 @@
 		(uuid "ec597475-b63f-422d-9a21-f358d234a34d")
 	)
 	(no_connect
-		(at 133.35 35.56)
-		(uuid "fb496d3b-1739-4652-a71f-96db57159d6a")
-	)
-	(no_connect
 		(at 97.79 93.98)
 		(uuid "fed9a351-78d4-4b6d-8d97-8f73c010689d")
-	)
-	(wire
-		(pts
-			(xy 128.27 53.34) (xy 133.35 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d53deb-6c3e-442a-b623-903ed79c5173")
 	)
 	(wire
 		(pts
@@ -4273,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 43.18) (xy 251.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572721f0-0e53-4647-8100-e28bb6539290")
+	)
+	(wire
+		(pts
 			(xy 128.27 45.72) (xy 133.35 45.72)
 		)
 		(stroke
@@ -4360,6 +4410,16 @@
 			(type default)
 		)
 		(uuid "680a81bd-78ae-4c39-b1ca-f48d93af6fc5")
+	)
+	(wire
+		(pts
+			(xy 167.64 41.91) (xy 167.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa8cdb2-95d3-4426-b013-c71283d648f0")
 	)
 	(wire
 		(pts
@@ -4987,7 +5047,7 @@
 		)
 		(uuid "fcf18966-7f82-4e5c-b6b3-0f56323a8397")
 	)
-	(label "TSS-"
+	(label "TSSL-"
 		(at 133.35 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4999,7 +5059,7 @@
 		(uuid "01477ec3-6410-49db-861e-482e633d3385")
 	)
 	(label "CRS_SET-"
-		(at 246.38 107.95 0)
+		(at 204.47 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5020,8 +5080,19 @@
 		)
 		(uuid "0aa54dc0-74c5-43d1-a04a-f68711c5ba55")
 	)
+	(label "TSSR-"
+		(at 167.64 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d08a14a-1da4-41d7-a5e7-9cf9686bfeb9")
+	)
 	(label "TSS+"
-		(at 233.68 107.95 180)
+		(at 191.77 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5042,7 +5113,7 @@
 		)
 		(uuid "1a1fb415-4911-4e62-9153-998595357256")
 	)
-	(label "REG-"
+	(label "CEN-"
 		(at 222.25 27.94 90)
 		(fields_autoplaced yes)
 		(effects
@@ -5064,8 +5135,19 @@
 		)
 		(uuid "23c5c0c6-7def-4ca6-a73b-33af4bb93eb6")
 	)
+	(label "TSSR-"
+		(at 191.77 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c1eb5dd-9ad2-469c-b78c-ef51d9b42eca")
+	)
 	(label "HRN_PD+"
-		(at 233.68 110.49 180)
+		(at 191.77 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5086,8 +5168,8 @@
 		)
 		(uuid "370d194b-b115-4514-9827-4a08252a8fa5")
 	)
-	(label "REG-"
-		(at 246.38 105.41 0)
+	(label "CEN-"
+		(at 204.47 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5098,7 +5180,7 @@
 		(uuid "39b380c4-659d-4fc4-87af-d6a60c0266ab")
 	)
 	(label "RGEN_E-"
-		(at 246.38 110.49 0)
+		(at 204.47 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5107,6 +5189,17 @@
 			(justify left bottom)
 		)
 		(uuid "3a44e989-a776-4c58-bd0d-5b39cd808d30")
+	)
+	(label "TSSO-"
+		(at 133.35 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b1aaf1d-f146-48f4-818d-6fd73b7fdf85")
 	)
 	(label "RGEN_E-"
 		(at 204.47 27.94 90)
@@ -5163,6 +5256,17 @@
 		)
 		(uuid "566f1d27-ae6b-482d-bfd4-e28ca8973a38")
 	)
+	(label "TSSR-"
+		(at 133.35 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5edc4366-dadd-42e3-ac37-70f53262e266")
+	)
 	(label "3V3_Bus"
 		(at 63.5 53.34 0)
 		(fields_autoplaced yes)
@@ -5197,7 +5301,7 @@
 		(uuid "64cbe397-7c58-4e04-8175-e256b4299ebd")
 	)
 	(label "HRN_PD-"
-		(at 246.38 100.33 0)
+		(at 204.47 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5229,7 +5333,7 @@
 		)
 		(uuid "743732c4-7eb6-4b6b-b46e-ab11b2079ed5")
 	)
-	(label "TSS-"
+	(label "TSSL-"
 		(at 231.14 27.94 90)
 		(fields_autoplaced yes)
 		(effects
@@ -5240,7 +5344,7 @@
 		)
 		(uuid "75cc5ab4-d2de-451f-9a0c-a6027d620389")
 	)
-	(label "REG+"
+	(label "CEN+"
 		(at 273.05 58.42 270)
 		(fields_autoplaced yes)
 		(effects
@@ -5263,7 +5367,7 @@
 		(uuid "79bc1863-6dd9-418c-a9d0-847ba203f0bb")
 	)
 	(label "RGEN_E+"
-		(at 233.68 100.33 180)
+		(at 191.77 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5272,6 +5376,17 @@
 			(justify right bottom)
 		)
 		(uuid "7b66b262-b642-4e2c-8523-20522c27f41c")
+	)
+	(label "TSSO-"
+		(at 204.47 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87376b60-9047-4fd1-9e4e-161f32f58d8b")
 	)
 	(label "SWDIO"
 		(at 168.91 148.59 0)
@@ -5350,7 +5465,7 @@
 		)
 		(uuid "b7a93cb1-389a-4785-b101-7ebc5613ec28")
 	)
-	(label "REG-"
+	(label "CEN-"
 		(at 133.35 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5372,6 +5487,17 @@
 		)
 		(uuid "c0490103-e91e-4df0-92a6-ac3bd4953559")
 	)
+	(label "TSSO-"
+		(at 251.46 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c04fb202-c5fc-4141-8825-f9f19abee7de")
+	)
 	(label "TSS+"
 		(at 270.51 58.42 270)
 		(fields_autoplaced yes)
@@ -5383,8 +5509,8 @@
 		)
 		(uuid "cd65a403-e856-47d2-aab2-85476c9d9c8f")
 	)
-	(label "TSS-"
-		(at 246.38 102.87 0)
+	(label "TSSL-"
+		(at 204.47 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5472,7 +5598,7 @@
 		(uuid "e8618e7a-9671-4990-8d02-c5408ed098e8")
 	)
 	(label "CRS_SET+"
-		(at 233.68 102.87 180)
+		(at 191.77 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5482,8 +5608,8 @@
 		)
 		(uuid "eea93755-a308-4ad3-a3ef-4ae8deb5f385")
 	)
-	(label "REG+"
-		(at 233.68 105.41 180)
+	(label "CEN+"
+		(at 191.77 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5514,7 +5640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c99da8b-3e0a-40ff-9927-e9483c842553")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 266.065 21.59 0)
 			(effects
 				(font
@@ -5572,7 +5698,77 @@
 		(instances
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "J4")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 251.46 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123596dd-6219-4d5c-b5d0-3713ed1b773b")
+		(property "Reference" "D8"
+			(at 255.27 39.6874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 255.27 42.2274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 251.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 251.46 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed49fe9d-c477-4e2a-a8de-03155af9544c")
+		)
+		(pin "2"
+			(uuid "5c907e90-3c2c-4ac9-8363-42e2720352be")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5970,6 +6166,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 251.46 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1d4b4f-a30d-4214-8c3c-2abc4eff1784")
+		(property "Reference" "R9"
+			(at 254 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 254 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.476 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 251.46 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47c969f0-6372-4b09-ac1b-be7fd96414ce")
+		)
+		(pin "2"
+			(uuid "b199a2f1-5946-45c9-b4ad-d2aeec70fe15")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
+		(at 196.85 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e627dc-8f83-474b-997b-2f12cc6c9b8a")
+		(property "Reference" "J2"
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Counter_Clockwise"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:CONN_SD-105310-100_12_MOL"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9d3b698a-c4b1-49ce-8b00-1b7e6824f4a0")
+		)
+		(pin "5"
+			(uuid "25154679-a574-4f6f-a22b-0438b7012a2f")
+		)
+		(pin "2"
+			(uuid "699a3d85-fd0c-4ee5-8652-3983aa13f2a6")
+		)
+		(pin "3"
+			(uuid "dd51c0f7-eea3-410f-97e7-7ca0aa2812e4")
+		)
+		(pin "7"
+			(uuid "68684735-3f14-4577-81d5-a4265076dfbe")
+		)
+		(pin "4"
+			(uuid "67cd4365-16c0-4186-89f8-6002eaed69bb")
+		)
+		(pin "9"
+			(uuid "477b71be-3f5f-42d9-9b56-0ba7bf884a11")
+		)
+		(pin "1"
+			(uuid "218c7e75-627b-4fb3-9ad9-8da116b1733e")
+		)
+		(pin "8"
+			(uuid "7ad920e0-5337-466b-9df7-30fd02b5755e")
+		)
+		(pin "12"
+			(uuid "7dd912d1-4a8a-44b4-af5f-858fac6284cb")
+		)
+		(pin "11"
+			(uuid "3a41072a-3718-4691-b26f-a0df09ecd6d2")
+		)
+		(pin "10"
+			(uuid "e1a1f4e3-03e5-4f32-925d-da2e5ec92ad3")
+		)
+		(instances
+			(project ""
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 48.26 0)
 		(unit 1)
@@ -5979,7 +6343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31f75f8b-70eb-466a-a6ad-627b917e04fe")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 204.47 54.61 0)
 			(effects
 				(font
@@ -6029,7 +6393,7 @@
 		(instances
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6126,7 +6490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b096225-39a4-4877-90a9-a9af118dd54c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 241.3 133.35 0)
 			(effects
 				(font
@@ -6176,7 +6540,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6297,7 +6661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c2a870e-e104-47e3-a6ce-d7bea88bd965")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 226.06 40.9574 90)
 			(effects
 				(font
@@ -6351,7 +6715,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4092ef3e-380e-425d-842c-ec47e3458363")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 184.15 52.07 0)
 			(effects
 				(font
@@ -6483,7 +6847,77 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR012")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 167.64 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42c7eb2f-de27-499d-b553-1c2fc3e481f1")
+		(property "Reference" "R2"
+			(at 170.18 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 170.18 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.656 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 167.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b931b7aa-1e8e-41c7-b19f-c611f9ec1108")
+		)
+		(pin "2"
+			(uuid "fbed5ad6-4bba-4987-adb5-a14633c5bd48")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "496536e0-0f9c-4074-bc71-41861426b97b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 267.97 54.61 0)
 			(effects
 				(font
@@ -6548,7 +6982,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6564,7 +6998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b4bcde7-372e-4d65-b56f-70457716fe77")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 215.9 31.7499 0)
 			(effects
 				(font
@@ -6618,7 +7052,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6634,7 +7068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb8577f-a73d-49d1-9fff-bd6e8ed9afdc")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 224.79 31.7499 0)
 			(effects
 				(font
@@ -6688,7 +7122,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6703,7 +7137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58629a99-09c2-4ee4-b1b2-7c4072a0f0d7")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 185.928 28.0416 0)
 			(effects
 				(font
@@ -6793,7 +7227,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6875,7 +7309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc89b6a-c9c9-4786-8034-72d3871d693a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -6925,7 +7359,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7377,7 +7811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67a4eaa7-9ba2-4f02-96af-3d40a5839fc7")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 242.57 31.7499 0)
 			(effects
 				(font
@@ -7431,7 +7865,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7447,7 +7881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "689d1136-9885-4e64-8997-554646203853")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 243.84 40.9574 90)
 			(effects
 				(font
@@ -7501,7 +7935,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7517,7 +7951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71040814-ce08-4285-8e2d-453046c88140")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 237.49 125.73 0)
 			(effects
 				(font
@@ -7568,7 +8002,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7635,6 +8069,76 @@
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 167.64 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7732048e-e5cc-4636-a9e8-5c7170a932b2")
+		(property "Reference" "D1"
+			(at 171.45 38.4174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 40.9574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5df40d44-7e6a-4a6b-aae1-3c6123db90cc")
+		)
+		(pin "2"
+			(uuid "cfdfc46f-15a9-409f-a063-12c647fb6fa9")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7716,7 +8220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ac62cad-b069-47e9-9368-c02fc6a015ea")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 231.775 133.35 0)
 			(effects
 				(font
@@ -7768,7 +8272,7 @@
 		(instances
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7890,7 +8394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8732e8a8-d8d0-4eef-ab42-211f921ccad2")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 207.01 31.7499 0)
 			(effects
 				(font
@@ -7944,7 +8448,7 @@
 		(instances
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8091,7 +8595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e914eed-f7fb-41b0-af65-61b6b1a01b03")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 208.28 40.9574 90)
 			(effects
 				(font
@@ -8145,7 +8649,7 @@
 		(instances
 			(project ""
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8259,6 +8763,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 167.64 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a49305-18f4-43d8-93ad-14d782d505f3")
+		(property "Reference" "#PWR012"
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd3a742-70db-4067-a669-2d533543c103")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 222.25 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8267,7 +8837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b6f23e-9c9f-496f-b657-84f3bdf8bdb8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 222.25 54.61 0)
 			(effects
 				(font
@@ -8317,99 +8887,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x05_Counter_Clockwise")
-		(at 238.76 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9970a7c2-84f0-4c4d-9354-92db65a2c5dd")
-		(property "Reference" "J3"
-			(at 240.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Counter_Clockwise"
-			(at 240.03 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_Connectors:CONN_SD-105310-100_10_MOL"
-			(at 238.76 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 238.76 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "81b530e1-673a-4391-ac67-bc394421f397")
-		)
-		(pin "7"
-			(uuid "5ce27d84-a84e-48be-b398-de8ee6198ed7")
-		)
-		(pin "2"
-			(uuid "656b4038-cfeb-4e2d-b47e-6a006d7e7921")
-		)
-		(pin "5"
-			(uuid "b677592c-9f87-4aed-8c1b-086d38f01aec")
-		)
-		(pin "1"
-			(uuid "7b545eb1-d50f-4333-8d15-b82ff63dbc42")
-		)
-		(pin "6"
-			(uuid "a29d7ece-7b51-4d36-94a5-c1baffd8a93b")
-		)
-		(pin "4"
-			(uuid "0ff1be85-d734-4561-bad6-374e6635c2e1")
-		)
-		(pin "3"
-			(uuid "5f6c2d5d-460f-4ae3-b6bd-a043a238d8d4")
-		)
-		(pin "10"
-			(uuid "16834eda-b973-4d19-af99-1692c20b5c3d")
-		)
-		(pin "9"
-			(uuid "cb22bc53-e827-4178-8e54-3574e4d66cf9")
-		)
-		(instances
-			(project ""
-				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "J3")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8425,7 +8903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c3c5aef-fa57-4fb7-aee8-770c026e2e11")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 217.17 40.9574 90)
 			(effects
 				(font
@@ -8479,7 +8957,73 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "D3")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f1c1176-2e2b-475b-9d2a-3f9a41901e5a")
+		(property "Reference" "#PWR021"
+			(at 251.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46ea7bcd-265a-411f-92c6-495761eb1c71")
+		)
+		(instances
+			(project "SteeringBoard"
+				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8495,7 +9039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18f7c9a-2129-47e7-a8b1-88f9cac2b9c9")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 234.95 40.9574 90)
 			(effects
 				(font
@@ -8549,7 +9093,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8710,7 +9254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2073f9b-073c-4e1d-860a-b77a97f6df21")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 187.1218 37.1348 90)
 			(effects
 				(font
@@ -8809,7 +9353,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8997,7 +9541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c518b0ed-b929-4bc7-a641-75a117b9d0f1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 213.36 54.61 0)
 			(effects
 				(font
@@ -9047,7 +9591,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9210,7 +9754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3841d7d-1787-4a06-abdc-60c7b55100ea")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 231.14 54.61 0)
 			(effects
 				(font
@@ -9260,7 +9804,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9554,7 +10098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5427819-f1cd-45ba-b54c-efbf7d2143a8")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 233.68 31.7499 0)
 			(effects
 				(font
@@ -9608,7 +10152,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)

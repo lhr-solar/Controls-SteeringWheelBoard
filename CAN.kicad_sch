@@ -1891,7 +1891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b8ffe5e-d3e0-41bc-813b-fc5336ec144f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 74.93 78.74 0)
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/2ae31cd1-3b20-41d6-acf0-8556f0359c18"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2080,7 +2080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a534f3d-2b8c-4216-aca4-2da43298559b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -2130,7 +2130,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/2ae31cd1-3b20-41d6-acf0-8556f0359c18"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2145,7 +2145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24b7cf90-030e-4f5b-bbeb-268b77ea3ad3")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 123.698 91.44 90)
 			(effects
 				(font
@@ -2233,7 +2233,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/2ae31cd1-3b20-41d6-acf0-8556f0359c18"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2249,7 +2249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3861ccf8-0394-41c5-a1c2-379788214cef")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 154.94 101.6 0)
 			(effects
 				(font
@@ -2299,7 +2299,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/2ae31cd1-3b20-41d6-acf0-8556f0359c18"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f1f4ab-d1ab-49f4-b6cc-7653d57c7274")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -2364,7 +2364,7 @@
 		(instances
 			(project "SteeringBoard"
 				(path "/1bc9055e-ec57-4cc6-8fa0-537b054d5f7c/2ae31cd1-3b20-41d6-acf0-8556f0359c18"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
