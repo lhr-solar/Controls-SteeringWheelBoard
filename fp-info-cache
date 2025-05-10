@@ -1,4 +1,4 @@
-23928300918845253
+23950908439421534
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67283,6 +67283,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NanoCONN
+CONN_SD-105309-100_04_MOL
+
+1053091404 
+0
+4
+4
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -95998,6 +96005,13 @@ Connector
 5
 5
 UTSVT_Connectors
+CONN_SD-105310-100_10_MOL
+
+1053101110 
+0
+10
+10
+UTSVT_Connectors
 Cal_Test_Banana_Jack_1_Pin_4mm
 
 
@@ -96319,6 +96333,83 @@ D5V0P4UR6SO-7
 0
 6
 6
+UTSVT_Power
+1122
+1122-3
+Connector
+0
+2
+2
+UTSVT_Power
+1122_with_cutout
+1122-3
+Connector
+0
+2
+2
+UTSVT_Power
+1769405141
+ 8-SMD Module, 5 Leads
+Power Supply
+0
+5
+5
+UTSVT_Power
+MYLSM00502ERPL
+MYLSM00502ERPL-2
+Power Supply
+0
+9
+9
+UTSVT_Power
+Mean_Well_12V
+
+
+0
+4
+4
+UTSVT_Power
+RFM0505S
+RFM Series
+Power Supply
+0
+4
+4
+UTSVT_Power
+RS60505S
+RS6
+Power Supply
+0
+7
+7
+UTSVT_Power
+SON65P200X200X80-7N
+DRV (S-PWSON-N6)
+Integrated Circuit
+0
+7
+7
+UTSVT_Power
+SON80P400X400X80-9N
+NGU0008B
+Integrated Circuit
+0
+9
+9
+UTSVT_Power
+SOT95P280X145-5N
+
+
+0
+5
+5
+UTSVT_Power
+transformer_wuerth_750318463
+
+
+0
+8
+8
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
